@@ -60,7 +60,7 @@ Configure Dexter in your Zed `settings.json` under the `lsp` key:
 
 | Setting | Default | Description |
 |---------|---------|-------------|
-| `binary.path` | `"dexter"` | Path to the Dexter binary. Defaults to finding `dexter` on your PATH. |
+| `binary.path` | `"dexter"` | Path to the Dexter binary. Defaults to finding `dexter` on your PATH. If you manage dexter with mise, prefer the shim path (`/Users/yourname/.local/share/mise/shims/dexter`) over a version-specific path — this way the correct version is always resolved automatically when you update. |
 | `binary.arguments` | `["lsp"]` | Arguments passed to the binary. |
 | `initialization_options.followDelegates` | `true` | When jumping to a `defdelegate`, follow through to the target function. |
 
