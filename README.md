@@ -48,7 +48,8 @@ Configure Dexter in your Zed `settings.json` under the `lsp` key:
   "lsp": {
     "dexter": {
       "binary": {
-        "path": "/path/to/dexter"
+        "path": "/path/to/dexter",
+        "arguments": ["lsp"],
       },
       "initialization_options": {
         "followDelegates": true
