@@ -10,13 +10,14 @@
 
 See the [Dexter repo](https://github.com/remoteoss/dexter) for the full feature list.
 
-## Quick start
+## Installation
 
-1. [Install Dexter](https://github.com/remoteoss/dexter#installation)
-2. Install from the Zed extension registry, or [from source](#from-source)
-3. Open any Elixir file — the index builds automatically on first startup
+1. [Install the Dexter binary](https://github.com/remoteoss/dexter#installation)
+2. In Zed, open **Extensions** (`Cmd+Shift+X`) and search for **"Dexter"**
+3. Click **Install**
+4. Open any Elixir file — the index builds automatically on first startup
 
-Add `.dexter.db` to your `.gitignore`:
+Add `.dexter.db` to your project's `.gitignore`:
 
 ```sh
 echo ".dexter.db*" >> .gitignore
@@ -50,9 +51,7 @@ Configure Dexter in your Zed `settings.json` under the `lsp` key:
 
 ## Development
 
-Requires Rust installed via [rustup](https://rustup.rs/).
-
-### From source
+For contributing to this extension. Requires Rust installed via [rustup](https://rustup.rs/).
 
 ```sh
 git clone https://github.com/remoteoss/dexter-zed.git
